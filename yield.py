@@ -1,8 +1,6 @@
+#!/usr/bin/env python
 
-import string
-import math
 from numpy import *
-import matplotlib.pyplot as plt
 from scipy.constants import *
 from yield_settings import *
 
