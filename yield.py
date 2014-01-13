@@ -1,8 +1,19 @@
 #!/usr/bin/env python
 
+
+import sys
 from numpy import *
 from scipy.constants import *
-from yield_settings import *
+
+
+
+if len(sys.argv) != 2:
+    print "Usage: %s <inp file>" % sys.argv[0]
+    sys.exit(1)
+
+
+
+execfile(sys.argv[1])
 
 # CONSTANTS
 mkA = 6.24*10**12     # micro amper
