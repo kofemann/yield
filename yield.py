@@ -42,7 +42,7 @@ for s in YY:
     S = S + n
     y.append(S)
 
-fig, ax = plt.subplots()
+ax = plt.subplot(111)
 plt.xlabel('Proton Energy, MeV')
 plt.ylabel('Yield, mCi/C')
 plt.title('%s production yield' % ISOTOPE)
